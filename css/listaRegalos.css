@@ -1,0 +1,102 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/EduTASBeginner-Medium.ttf');
+}
+body {
+    background-color: #AF7AC5;
+    font-family: 'myFirstFont';
+    font-weight: bold;
+}
+
+.nombreInvitado {
+    margin: 20px auto 0 auto;
+    background-color: #F5EEF8;
+    width: 40%;
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(215, 189, 226, .7);
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 8px 14px 14px 3px rgba(0, 0, 0, 0.26);
+}
+
+.container > div {
+    flex: 47%;
+}
+
+.principal {
+    width: 100%;
+    padding: 20px;
+    background-color: #F5EEF8;
+    border-radius: 15px;
+    margin: 10px;
+    -webkit-box-shadow: 6px 5px 7px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 6px 5px 7px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 5px 7px -1px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    background-image: url("../images/mariposas.png");
+    width: 100px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+}
+
+.img2 {
+    background-image: url("../images/mariposas.png");
+    width: 100px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 80%;
+    z-index: -1;
+}
+
+.img3 {
+    background-image: url("../images/mariposas.png");
+    width: 100px;
+    height: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-top: 100%;
+    z-index: -1;
+}
+
+.img4 {
+    background-image: url("../images/mariposas.png");
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 80%;
+    z-index: -1;
+}
+
+.page {
+    position: relative;
+}
